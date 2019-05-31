@@ -1,0 +1,128 @@
+.active{
+    margin-right:40px;
+    transition: 0.5s;
+}
+
+.remove{
+    margin-right:0px;
+    transition: 0.5s;
+}
+
+.owl-dots{
+    display: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.line {
+    width: 0px;
+    border: 1.5px solid green;
+    display: none;
+    position: absolute;
+}
+
+.exzoom_img_ul li{
+    list-style: none;
+}
+
+
+
+  .sliderNav{
+    width: 250px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 2;
+    margin-left:-250px;
+    position: fixed;
+    z-index: 9;
+}
+
+.sliderNav ul li{
+    list-style: none;
+
+}
+
+.navBarDisappear a:hover{
+    background-color: #ced4da;
+    }
+    
+    
+
+input:focus{
+    border-color: #ced4da !important;
+        box-shadow: none !important;
+    
+    }
+
+    .dropdown-item:hover{
+        background-color:#e1e1e1;
+    }
+    
+
+.btn:focus{
+    border-color: transparent !important;
+    box-shadow: none !important;
+    }
+
+
+    button:focus {
+        border-color: transparent !important;
+    box-shadow: none !important;
+    }
+
+.sliderNav ul li a{
+   color: black;
+   font-size: 16px;
+}
+
+.socialIcons i{
+    font-size: 50px;
+    margin:5px;
+}
+
+.showSliderNav{
+    position: absolute;
+    top:11px;
+    left:-20px;
+    z-index: 8;
+    display: none;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .navBarDisappear,.WelcometoOurMarket,.searchForm,.wishlist,.compare,.tel{
+
+display:none
+
+}
+
+    .showSliderNav{
+        display: block;
+    }
+
+   
+  }
+
+  @media only screen and (max-width: 992px) {
+
+    .ShoppingIcon{
+        display: none;
+
+        
+    }
+    .shopforResponsive{
+        display: block !important;
+        
+    }
+
+    .searchDrop{
+        margin-left: 170px;
+    }
+
+
+  }
+

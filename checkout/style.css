@@ -1,0 +1,169 @@
+.active{
+    margin-right:40px;
+    transition: 0.5s;
+}
+
+.remove{
+    margin-right:0px;
+    transition: 0.5s;
+}
+
+.dropdown-submenu{
+ position: relative;   
+}
+
+.dropdown-submenu .dropdown-menu{
+    top:-24px;
+    left:200px;
+    margin-top:-1px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu{
+    display: block;
+}
+
+.dropdown-submenu>a::after{
+    display: block;
+    content: "";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  
+
+.dropdown-submenu:hover>a::after{
+border-left-color: #fff;
+
+}
+
+.dropdown-submenu.pull-left{
+    float: none;
+}
+
+
+
+.sliderNav{
+    width: 250px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 2;
+    margin-left:-250px;
+    position: fixed;
+    z-index: 9;
+}
+
+.sliderNav ul li{
+    list-style: none;
+
+}
+
+.sliderNav ul li a{
+   color: black;
+   font-size: 16px;
+}
+
+.socialIcons i{
+    font-size: 50px;
+    margin:5px;
+}
+
+.navBarDisappear a:hover{
+    background-color: #ced4da;
+    }
+    
+    
+
+.showSliderNav{
+    position: absolute;
+    top:11px;
+    left:-20px;
+    z-index: 8;
+    display: none;
+}
+
+.dropdown-item:hover{
+    background-color:#e1e1e1;
+}
+
+
+input:focus{
+    border-color: #ced4da !important;
+        box-shadow: none !important;
+    
+    }
+
+
+.btn:focus{
+    border-color: transparent !important;
+    box-shadow: none !important;
+    }
+
+
+    button:focus {
+        border-color: transparent !important;
+    box-shadow: none !important;
+    }
+
+/* .searchTopPart:focus,.searchTopPart:active,button:focus,button:active,input:active,input:focus{
+outline: none;
+box-shadow: none;
+} */
+
+
+@media only screen and (max-width: 992px) {
+    .navBarDisappear,.WelcometoOurMarket,.searchForm,.wishlist,.compare,.tel{
+
+display:none !important;
+
+}
+
+    .showSliderNav{
+        display: block;
+    }
+
+   
+  }
+
+  @media only screen and (max-width: 992px) {
+
+    .ShoppingIcon{
+        display: none;
+
+        
+    }
+    .shopforResponsive{
+        display: block !important;
+    }
+
+
+  }
